@@ -22,3 +22,4 @@ jobs: # a collection of steps
           paths:
             - vendor
       - run: php -m
+      - run: phpunit
